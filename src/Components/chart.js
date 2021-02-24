@@ -48,6 +48,8 @@ class Chart extends Component {
                             "rgba(54, 162, 235, 0.6)",
                             "rgba(255, 206, 86, 0.6)",
                         ],
+                        fill: true,
+                        borderWidth: 5,
                     },
                 ],
             },
@@ -70,7 +72,6 @@ class Chart extends Component {
                             display: true,
                             position: "bottom",
                         },
-                        
                     }}
                 />
 
